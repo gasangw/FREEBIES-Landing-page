@@ -11,6 +11,7 @@ module.exports = {
         'redish': '#F53855',
         'bluish': '#0B132A',
         'darkblue': '#4F5665',
+        'backColor': '#F6F6F6',
       },
     },
   },
