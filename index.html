@@ -8,10 +8,103 @@
     <title>FREEBIES-Landing-Page</title>
 </head>
 <body>
-    <header>
-        
+    <header class="container mx-auto flex flex-row justify-between py-5 place-items-center">
+        <div class="flex flex-row place-items-center gap-2">
+            <img src="./Images/Vector.png" alt="logo" />
+            <p class="text-but text-lg font-medium">Lasles<span class="font-bold">VPN</span></p>
+        </div>
+        <nav class="flex flex-row">
+            <ul class="flex flex-row gap-8 text-[#4F5665] text-[1rem] font-sans">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Testimonies</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+        <div class="flex flex-row gap-7 text-but font-[500]">
+            <a href="" class="hover:border-2 hover:border-red-500 px-3 py-1 hover:rounded-full hover:text-redish">Sign In</a>
+            <a href="" class="hover:border-2 hover:border-red-500 px-3 py-1 hover:rounded-full hover:text-redish">Sign Up</a>
+        </div>
     </header>
-    <main></main>
+    <main class="container mx-auto">
+        <section>
+          <div class="grid grid-cols-2 pt-24">
+            <div class="mt-3"> 
+                <h1 class="text-bluish font-sans font-medium text-6xl">Want anything to be easy with <span class="font-bold">LaslesVPN</span></h1>           
+                <p class="pt-4 text-darkblue text-lg">Provide a network for all your needs with ease and fun using <span class="font-semibold">LaslesVPN</span> discover interesting features from us.</p>  
+                <button class="mt-12 border-2 border-[#F53838] px-10 py-2 bg-[#F53838] text-white font-sans rounded-md"><a href="#">Get Started</a></button>
+              </div>
+              <div> 
+                <img src="./Images/Illustration1.png" alt="person-on-laptop picture" class="object-cover "/>           
+              </div>
+          </div>
+
+          <!-- area with articles -->
+          <div class="flex flex-row gap-3 mt-16 shadow-lg py-16 divide-x-[3px] divide-[#EEEFF2]">
+            <article class="flex flex-row gap-2 justify-center w-[33.3%]">
+              <div class="border-1 border-[#FFECEC] bg-[#FFECEC] rounded-full py-3 px-4">
+                <img src="./Images/avatar.png" alt="avatar-icon" />
+              </div>
+              <div>
+                <p class="font-sans font-bold text-lg">90+</p>
+                <p>Users</p>
+              </div>
+            </article>
+            <article class="flex flex-row gap-2 justify-center w-[33.3%]">
+                <div class="border-1 border-[#FFECEC] bg-[#FFECEC] rounded-full py-3 px-4">
+                  <img src="./Images/location.png" alt="location-icon" />
+                </div>
+                <div>
+                  <p class="font-sans font-bold text-lg">30+</p>
+                  <p>Locations</p>
+                </div>
+            </article>
+            <article class="flex flex-row gap-2 justify-center w-[33.3%]">
+                <div class="border-1 border-[#FFECEC] bg-[#FFECEC] rounded-full py-3 px-4">
+                  <img src="./Images/bars.png" alt="bar-icon" />
+                </div>
+                <div>
+                  <p class="font-sans font-bold text-lg">50+</p>
+                  <p>Servers</p>
+                </div>
+              </article>
+          </div>
+          <!-- another area of features provided -->
+          <div>
+            <div>
+                <img src="./Images/Illustration2.png" alt="person on latop" />
+            </div>
+            <div>
+                <h2>We Provide Many Features You Can Use</h2>
+                <p>You can explore the features that we provide with fun and have their own functions each feature</p>
+               <ul>
+                <li class="flex flex-row gap-2">
+                    <img src="./Images/tick.png" alt="tick-icon" />
+                    <p>Powerful online protection</p>
+                </li>
+                <li class="flex flex-row gap-2">
+                    <img src="./Images/tick.png" alt="tick-icon" />
+                    <p>Internet without borders</p>
+                </li>
+                <li class="flex flex-row gap-2">
+                    <img src="./Images/tick.png" alt="tick-icon" />
+                    <p>Supercharged VPN</p>
+                </li>
+                <li class="flex flex-row gap-2">
+                    <img src="./Images/tick.png" alt="tick-icon" />
+                    <p>No specific time limits</p>
+                </li>
+               </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Another section written -->
+        <section>
+          
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>

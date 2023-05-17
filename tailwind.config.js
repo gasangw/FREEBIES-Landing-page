@@ -2,8 +2,19 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    extend: {},
+    'fontFamily': {
+      'sans': ['Rubik', 'sans-serif'],
+    },
+    extend: {
+      colors: {
+        'but': '#0B132A',
+        'redish': '#F53855',
+        'bluish': '#0B132A',
+        'darkblue': '#4F5665',
+      },
+    },
   },
   plugins: [],
 }
 
+// 
