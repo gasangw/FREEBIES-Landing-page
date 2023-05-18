@@ -13,6 +13,10 @@ module.exports = {
         'darkblue': '#4F5665',
         'backColor': '#F6F6F6',
       },
+      gridTemplateColumns: {
+        // Simple 5 column grid
+        '5': 'repeat(5, minmax(15%, 20%))',
+      },
     },
   },
   plugins: [],
