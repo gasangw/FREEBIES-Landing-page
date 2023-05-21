@@ -5,6 +5,16 @@ module.exports = {
     'fontFamily': {
       'sans': ['Rubik', 'sans-serif'],
     },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '7rem',
+        xl: '8rem',
+        '2xl': '9rem',
+      },
+    },
     extend: {
       colors: {
         'but': '#0B132A',
